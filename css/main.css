@@ -1,0 +1,164 @@
+/**** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+  display: inline-block;
+}
+
+/*****HEADER*****/
+header{
+  height: 110px;
+}
+
+header h1{
+  color: #77a466;
+  font-size: 30px;
+  line-height: 23px;
+  padding: 20px 0 0 0;
+  text-transform: uppercase;
+}
+
+header span{
+  color: #000000;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px 0 0 0;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 23px;
+    color: #77a466;
+    padding: 20px 10px 10px 10px;
+}
+
+
+/*****SECTION ONE*****/
+
+#section-one img {
+  border-width: 5px 0;
+  border-color: #77a466;
+  border-style: solid;
+
+}
+
+#section-one h2{
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+
+}
+
+#section-one p{
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*****SECTION TWO*****/
+
+.specials,
+.reviews,
+.contact {
+  width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+#section-two {
+  height: 215px;
+  width: 1200px;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+}
+
+#section-two h3{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#section-two p{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#section-two ul{
+  list-style: none;
+  padding: inherit;
+}
+
+#section-two ul li{
+  color: #77a466;
+  font-size: 16px;
+  font-weight: normal ;
+  line-height: 18px;
+  padding: 5px 0 5px 0;
+  margin: auto;
+}
+
+#section-two .specials {
+  width: 350px;
+  padding: 10px 25px 10px 0;
+}
+
+#section-two .reviews {
+  width: 350px;
+  line-height: 21px;
+  padding: 10px 35px;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+#section-two .contact {
+  width: 350px;
+  padding: 10px 10px 10px 25px;
+  line-height: 24px;
+}
+
+/*****FOOTER*****/
+
+footer h2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer span{
+  color: #77a466;
+  font-family: 'Galada', cursive;
+  text-transform: lowercase;
+  margin: 50px 0 50px 0;
+}
